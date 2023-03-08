@@ -1,7 +1,87 @@
 body {
     font-family: 'Roboto', serif;
     margin: 0;
+    padding: 0;
 }
+
+/* header */
+header{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/bg.jpg);
+    background-color: rgba(31, 78, 121, 255);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+header img {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 0.5;
+}
+
+header p:not(:first-child) {
+    font-size: 1.5rem;
+}
+
+header p:first-child {
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.links ul a {
+    color: #ff7200;
+}
+
+.btn-content {
+    width: 140px;
+    height: 40px;
+    background: rgba(31, 78, 121, 255);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-content a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.btn-content:hover {
+    border: 1px solid whitesmoke;
+    background: transparent;
+}
+
+.btn-content:hover a {
+    color: #ff7200;
+    font-weight: bold;
+}
+
+
+/* content */
 
 .container {
     display: flex;
@@ -20,14 +100,6 @@ aside {
 
 aside .header > div{
     text-align: center;
-}
-
-header img {
-    border-radius: 50%;
-    width: 20rem;
-    height: 20rem;
-    object-fit: cover;
-    border: 2px solid white;
 }
 
 aside a{
@@ -67,17 +139,6 @@ main {
     margin-right: 4rem;
     flex: 2;
     position: relative;
-}
-
-.links ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    font-size: 1.5rem;
-}
-
-.links ul a {
-    text-decoration: none;
 }
 
 main > h1 {

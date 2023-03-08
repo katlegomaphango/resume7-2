@@ -22,7 +22,7 @@ aside .header > div{
     text-align: center;
 }
 
-.header img {
+header img {
     border-radius: 50%;
     width: 20rem;
     height: 20rem;
@@ -50,12 +50,13 @@ aside .header li {
 .corner-accent{
     border-left: 20px solid transparent;
     border-right: 20px solid rgba(31, 78, 121, 255);
-    border-top: 20px solid rgba(31, 78, 121, 255);
-    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid rgba(31, 78, 121, 255);
     height: 20rem;
     width: 20rem;
     position: absolute;
     right: 0;
+    bottom: 0;
     z-index: 2;
 }
 

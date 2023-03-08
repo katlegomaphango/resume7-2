@@ -24,8 +24,8 @@ aside .header > div{
 
 .header img {
     border-radius: 50%;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: cover;
     border: 2px solid white;
 }

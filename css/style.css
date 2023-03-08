@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+aside {
+    background-color: rgba(31, 78, 121, 255);
+    color: white;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 8rem;
+    padding-right: 4rem;
+    flex: 1;
+}
+
+aside .header > div{
+    text-align: center;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+aside a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+aside .header li {
+    list-style: none;
+}
+
+.education, .skills, .interests {
+    margin-top: 4rem;
+}
+
+.aside-section_header {
+    font-size: 2rem;
+}
+
+.corner-accent{
+    border-left: 20px solid transparent;
+    border-right: 20px solid rgba(31, 78, 121, 255);
+    border-top: 20px solid rgba(31, 78, 121, 255);
+    border-bottom: 20px solid transparent;
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+main {
+    margin-top: 8rem;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    flex: 2;
+    position: relative;
+}
+
+.links ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.links ul a {
+    text-decoration: none;
+}
+
+main > h1 {
+    margin-top: 5rem;
+}
+
+.experience {
+    padding-top: 2rem;
+}
+
+/* Contact */
+.input:not(:first-child), .btn {
+    margin-top: 1rem;
+}
+
+label {
+    display: inline-block;
+    width: 5rem;
+    text-align: left;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    background-color: cadetblue;
+}
+
+.btn:hover {
+    border: 2px solid cadetblue;
+    background-color: rgba(31, 78, 121, 255);
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
